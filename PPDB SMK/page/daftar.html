@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" type="text/css" href="layout/style.css"> -->
+    <link rel="icon" href="img/logo.jpeg">
+<script src="js/code.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <table>
+            <tr>
+            <td><p><img src="img/logo.jpeg"></p></td>
+                <td class="text">
+                    <h3>SMKN 57 JAKARTA</h3>
+                    <p>Sekolah Menengah Kejuaraan Negeri Pertama di Indonesia Yang Bergerak di Bidang Pariwisata</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- bagian menu -->
+    <div class="container">
+        <nav class="menu">
+            <ul class="navigasi">
+                <li class="active"><a href="beranda.php">Beranda</a></li>
+                <li><a href="visi.php">Visi dan Kebijakan Mutu</a></li>
+                <li><a href="info.php">Informasi Pendaftaran</a></li>
+                <li><a href="daftar.php">Formulir Pendaftaran</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <center>
+        <article>
+    <div class="form">
+                <h3 class="daftar">Formulir Pendaftaran SMKN 57 JAKARTA</h3>
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="username" placeholder="Nama Lengkap" required/></td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><label><input type="radio" name="kelamin" value="kelamin"/>Laki-laki</label>
+                    <label><input type="radio" name="kelamin" value="kelamin"/>Perempuan</label></td>
+                </tr>
+
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea required></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Asal Sekolah</td>
+                    <td>:</td>
+                    <td><input type="text" name="asal" placeholder="Asal Sekolah" required/></td>
+                </tr>
+
+                <tr>
+                    <td>Jurusan</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option>Usaha Perjalanan Wisata</option>
+                            <option>Perhotelan</option>
+                            <option>Tataboga</option>
+                            <option>Seni Tari</option>
+                            <option>Seni Karawitan</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+             <td>   <label for="">Upload Berkas</label> </td>
+                <td>:</td>
+              <td>  <input type="file"></td>
+            </tr>
+            </table>
+
+            <br>
+            <a href=""><button onclick="notifikasi()">Kirim</button></a>
+            <a href=""><button onclick="">Batal</button></a>
+            <br>
+        </article>
+        </center>
+    </div>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <center>
+        <p>&copy;2024 Muhamad Fatir</p>
+        </center>
+    </footer>
+    
+    
+</body>
+
+</html>
